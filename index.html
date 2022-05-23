@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scripts/scriptJquery.js"></script>
+</head>
+
+<body>
+    <header class="navHead">
+        <div id="brand"><a href="/">Movies List</a></div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="row"></section>
+
+    <section class="sectionFormulario">
+        <form action="">
+            <label for="name">Nombre:</label>
+            <input placeholder="Introduce tu Nombre.." pattern="[a-zA-Z ]*" title="Introduce tu Nombre" tabindex="1"
+                required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="text" placeholder="Introduce tu Email..">
+
+            <label for="telephone">Telefono:</label>
+            <input type="text" placeholder="Introduce tu Email..">
+
+            <label for="message">Mensaje:</label>
+            <input type="text" placeholder="Introduce tu Mensaje..">
+            <button type="button">Inscribirse</button>
+        </form>
+    </section>
+</body>
+
+</html>
