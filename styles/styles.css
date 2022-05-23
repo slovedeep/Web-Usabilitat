@@ -6,12 +6,11 @@
 
 body {
   background-image: linear-gradient(to right, #034378, #2d4e68);
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   font-family: "Open Sans", sans-serif;
-  /* display: flex;
-  flex-direction: column; */
+ 
 }
 header {
   padding: 0 20px;
@@ -112,6 +111,8 @@ h1 {
 .row {
   max-width: 900px;
   margin: 50px auto 0;
+   display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -252,14 +253,43 @@ h1 {
 }
 
 form{
-  background-color: #fff;
-  border-radius: 3px;
-  padding: 40px;
-  margin: 0 auto;
-  width: 400px;
-  height: 450px;
+  background-color: steelblue;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 20px auto;
+  width: 350px;
+  height: 420px;
 }
 
+
+label{
+  margin: auto;
+  margin-bottom: 10px;
+}
+input{
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 200px;
+}
+textarea{
+  margin: auto;
+  width: 200px;
+  height: 350px;
+  resize: vertical;
+}
+
+button{
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  width: 100px;
+}
+
+button:hover{
+  background-color: darkslateblue;
+}
 
 @media only screen and (max-width: 600px) {
 
